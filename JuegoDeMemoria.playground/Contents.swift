@@ -28,7 +28,7 @@ for n in 0...100{
     */
     
     //a dicha variable le asigno inicialmente el número en curso
-    var p = String(n)
+    var p = "\(n)"
     
     //si es divisible entre 5...
     if n % 5 == 0{
